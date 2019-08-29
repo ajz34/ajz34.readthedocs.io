@@ -69,4 +69,6 @@ html_static_path = ['_static']
 
 nbsphinx_allow_errors = True
 nbsphinx_timeout = 720
+# https://stackoverflow.com/questions/56336234/build-fail-sphinx-error-contents-rst-not-found
+master_doc = "index"
 
