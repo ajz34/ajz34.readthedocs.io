@@ -14,6 +14,7 @@ ajz34 的 jupyter 小仓库
    :caption: 目录
 
    PUHF_and_PMP2
+   Freq_Series/freq_1
 
 
 检索
