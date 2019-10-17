@@ -17,6 +17,7 @@ ajz34 的 jupyter 小仓库
    Freq_Series/freq_1
    DF_Series/DF_SCF
    DF_Series/DF_MP2
+   DF_Series/LT_MP2
 
 
 检索
