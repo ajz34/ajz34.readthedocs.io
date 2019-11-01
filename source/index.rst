@@ -10,16 +10,11 @@ ajz34 的 jupyter 小仓库
 
 .. toctree::
    :numbered:
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: 目录
 
    Simple_Notes/index
-   PUHF_and_PMP2
-   Freq_Series/freq_1
-   DF_Series/DF_SCF
-   DF_Series/DF_MP2
-   DF_Series/LT_MP2
-   SCF_Series/diis_comprehen
+   QC_Notes/index
 
 
 检索

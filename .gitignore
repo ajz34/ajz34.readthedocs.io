@@ -2,7 +2,7 @@
 tmp
 *.sav
 *.bak
-*.out
+#*.out
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
