@@ -15,6 +15,7 @@ ajz34 的 jupyter 小仓库
 
    Simple_Notes/index
    QC_Notes/index
+   ML_Notes/index
 
 
 检索
