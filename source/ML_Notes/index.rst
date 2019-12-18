@@ -6,3 +6,4 @@
    :caption: 目录
 
    Autograd_Series/Autograd_RHF
+   Autograd_Series/Autograd_TensorContract
