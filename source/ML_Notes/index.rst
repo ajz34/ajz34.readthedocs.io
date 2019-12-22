@@ -8,3 +8,4 @@
    Autograd_Series/Autograd_TensorContract
    Autograd_Series/Autograd_Chain
    Autograd_Series/Autograd_RHF
+   Autograd_Series/Autograd_Hess
