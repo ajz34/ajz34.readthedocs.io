@@ -1,0 +1,12 @@
+%chk=H2O2_freq_polar_example.chk
+# RHF/6-31G NoSymm Freq(Raman) CPHF=RdFreq
+
+H2O2 Frequency-Dependent Polarizability (Raman)
+
+0 1
+O  0.0  0.0  0.0
+O  0.0  0.0  1.5
+H  1.0  0.0  0.0
+H  0.0  0.7  1.0
+
+1nm

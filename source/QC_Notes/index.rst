@@ -12,3 +12,4 @@
    DF_Series/LT_MP2
    SCF_Series/diis_comprehen
    Post_Series/mp3_mp4_energy
+   Freq_Polar/Freq_Polar
