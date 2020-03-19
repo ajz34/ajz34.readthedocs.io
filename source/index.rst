@@ -19,6 +19,19 @@ ajz34 的 jupyter 小仓库
    QC_Notes/index
    ML_Notes/index
 
+这部分的内容置于 `github 仓库 <https://github.com/ajz34/ajz34.readthedocs.io>`_ 中。
+
+
+ajz34 的其它文档
+================
+
+其它 ajz34 编写的文档 (包括已不维护的) 有
+
+- Py_xDH 文档：计算化学的双杂化泛函能量与梯度性质的实现文档与程序 https://py-xdh.readthedocs.io/
+- leetcode-cn (力扣) 算法题解：以 176 周以后周赛、双周赛竞赛最难题为主 https://leetcode-cn.com/u/ajz34/
+- 停止维护：原 ajz34 blog https://ajz34.github.io/
+- 停止维护：原 Psi4_xDH 文档 https://py-xdh.readthedocs.io/
+
 
 检索
 ====
