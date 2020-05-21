@@ -63,9 +63,6 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_css_files = [
-    '_static/style.css',
-]
 
 
 # -- Extension configuration -------------------------------------------------
@@ -75,3 +72,6 @@ nbsphinx_timeout = 720
 # https://stackoverflow.com/questions/56336234/build-fail-sphinx-error-contents-rst-not-found
 master_doc = "index"
 
+def setup(app):
+    # https://stackoverflow.com/questions/23211695/modifying-content-width-of-the-sphinx-theme-read-the-docs
+    app.add_stylesheet('style.css')
