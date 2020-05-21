@@ -11,13 +11,39 @@ ajz34 的 jupyter 小仓库
 这些程序文档都是由 Python 下的 Jupyter Notebook 编写而成，因此在安装足够的依赖环境的条件下，这些文档都是可以作为程序运行的。欢迎大家到 Github 下载这些 Jupyter 文档并亲手运行。
 
 .. toctree::
+   :maxdepth: 1
    :numbered:
-   :maxdepth: 2
-   :caption: 目录
+   :caption: 简短笔记
 
-   Simple_Notes/index
-   QC_Notes/index
-   ML_Notes/index
+   Simple_Notes/plot_regression
+
+
+.. toctree::
+   :maxdepth: 1
+   :numbered:
+   :caption: 量子化学程序
+
+   QC_Notes/PUHF_and_PMP2
+   QC_Notes/Freq_Series/freq_1
+   QC_Notes/DF_Series/DF_SCF
+   QC_Notes/DF_Series/DF_MP2
+   QC_Notes/DF_Series/LT_MP2
+   QC_Notes/SCF_Series/diis_comprehen
+   QC_Notes/Post_Series/mp3_mp4_energy
+   QC_Notes/Freq_Polar/Freq_Polar
+   QC_Notes/XC_Potential_Series/PBE_xc_potential
+
+
+.. toctree::
+   :maxdepth: 1
+   :numbered:
+   :caption: 机器学习程序
+
+   ML_Notes/Autograd_Series/Autograd_TensorContract
+   ML_Notes/Autograd_Series/Autograd_Chain
+   ML_Notes/Autograd_Series/Autograd_RHF
+   ML_Notes/Autograd_Series/Autograd_Hess
+
 
 这部分的内容置于 `github 仓库 <https://github.com/ajz34/ajz34.readthedocs.io>`_ 中。
 
@@ -29,6 +55,7 @@ ajz34 的其它文档
 
 - Py_xDH 文档：计算化学的双杂化泛函能量与梯度性质的实现文档与程序 https://py-xdh.readthedocs.io/
 - leetcode-cn (力扣) 算法题解：以 176 周以后周赛、双周赛竞赛最难题为主 https://leetcode-cn.com/u/ajz34/
+- Bilibili 视频：https://space.bilibili.com/1876964
 - 停止维护：原 ajz34 blog https://ajz34.github.io/
 - 停止维护：原 Psi4_xDH 文档 https://py-xdh.readthedocs.io/
 
