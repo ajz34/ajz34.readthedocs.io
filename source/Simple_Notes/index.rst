@@ -6,3 +6,4 @@
    :caption: 目录
 
    plot_regression
+   for_the_worthy
