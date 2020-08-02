@@ -76,4 +76,4 @@ def setup(app):
     # https://stackoverflow.com/questions/23211695/modifying-content-width-of-the-sphinx-theme-read-the-docs
     app.add_stylesheet('style.css')
 
-mathjax_path = "Mathjax/es5/tex-chtml-full.js"
+mathjax_path = "MathJax/es5/tex-chtml-full.js"
