@@ -34,6 +34,7 @@ ajz34 的 jupyter 小仓库
    QC_Notes/Freq_Polar/Freq_Polar
    QC_Notes/XC_Potential_Series/PBE_xc_potential
    QC_Notes/XC_Potential_Series/KS_Potential_Artifact
+   QC_Notes/Post_Series/dRPA_Comprehense
 
 
 .. toctree::
