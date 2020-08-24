@@ -57,8 +57,10 @@ ajz34 的其它文档
 其它 ajz34 编写的文档 (包括已不维护的) 有
 
 - Py_xDH 文档：计算化学的双杂化泛函能量与梯度性质的实现文档与程序 https://py-xdh.readthedocs.io/
-- leetcode-cn (力扣) 算法题解：以 176 周以后周赛、双周赛竞赛最难题为主 https://leetcode-cn.com/u/ajz34/
+- Programming Tutorial in Chemistry by Python: Crawford's Psi3/C++ tutorial modified to Python https://pycrawfordprogproj.readthedocs.io/
 - Bilibili 视频：https://space.bilibili.com/1876964
+
+- 停止维护：leetcode-cn (力扣) 算法题解：以 176 周以后周赛、双周赛竞赛最难题为主 https://leetcode-cn.com/u/ajz34/
 - 停止维护：原 ajz34 blog https://ajz34.github.io/
 - 停止维护：原 Psi4_xDH 文档 https://py-xdh.readthedocs.io/
 
