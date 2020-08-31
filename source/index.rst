@@ -6,7 +6,7 @@
 ajz34 的 jupyter 小仓库
 =======================
 
-这是 ajz34 的一些简短的程序文档。由于不适合放置在纯文本的网页中，因此另起一个 sphinx 文档区。
+这是 ajz34 (祝震予，Zhenyu Zhu) 的一些简短的程序文档。由于不适合放置在纯文本的网页中，因此另起一个 sphinx 文档区。(事实上纯文本的原博客已经停止维护了)
 
 这些程序文档都是由 Python 下的 Jupyter Notebook 编写而成，因此在安装足够的依赖环境的条件下，这些文档都是可以作为程序运行的。欢迎大家到 Github 下载这些 Jupyter 文档并亲手运行。
 
@@ -45,6 +45,7 @@ ajz34 的 jupyter 小仓库
    QC_Notes/Freq_Polar/Freq_Polar
    QC_Notes/Prop_Series/Mag_NoGIAO_NumDeriv
    QC_Notes/Prop_Series/Mag_GIAO_NumDeriv
+   QC_Notes/Prop_Series/NMR_GIAO_NumDeriv
 
 
 .. toctree::
