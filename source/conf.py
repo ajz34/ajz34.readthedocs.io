@@ -47,6 +47,7 @@ language = 'zh_CN'
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = [
+        "tmp",
         "_build",
         "**.ipynb_checkpoints"
 ]
@@ -77,3 +78,16 @@ def setup(app):
     app.add_stylesheet('style.css')
 
 mathjax_path = "MathJax/es5/tex-chtml-full.js"
+
+bibtex_bibfiles = [
+    "QC_Notes/assets/PUHF_and_PMP2.bib",
+    "QC_Notes/DF_Series/assets/DF_SCF.bib",
+    "QC_Notes/DF_Series/assets/LT_MP2.bib",
+    "QC_Notes/Post_Series/mp3_mp4_energy.bib",
+    "QC_Notes/Post_Series/dRPA_Comprehense.bib",
+    "QC_Notes/Post_Series/scsRPA_Comprehense.bib",
+    "QC_Notes/Prop_Series/Mag_NoGIAO_NumDeriv.bib",
+    "QC_Notes/Prop_Series/Mag_GIAO_NumDeriv.bib",
+    "ML_Notes/Autograd_Series/assets/Autograd_RHF.bib",
+    "ML_Notes/SISSO/SISSO_SimpleNote.bib",
+]
