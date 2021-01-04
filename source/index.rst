@@ -17,6 +17,7 @@ ajz34 的 jupyter 小仓库
 
    Simple_Notes/plot_regression
    Simple_Notes/for_the_worthy
+   Simple_Notes/posthf_density_matrtix
 
 
 .. toctree::
@@ -73,7 +74,7 @@ ajz34 的其它文档
 - Bilibili 视频：https://space.bilibili.com/1876964
 
 - 停止维护：leetcode-cn (力扣) 算法题解：以 176 周以后周赛、双周赛竞赛最难题为主 https://leetcode-cn.com/u/ajz34/
-- 停止维护：原 ajz34 blog https://ajz34.github.io/
+- 停止维护：原 ajz34 blog https://github.com/ajz34/ajz34.github.io/tree/deprecate
 - 停止维护：原 Psi4_xDH 文档 https://py-xdh.readthedocs.io/
 
 
