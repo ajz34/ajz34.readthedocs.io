@@ -60,6 +60,7 @@ ajz34 的 jupyter 小仓库
    ML_Notes/Autograd_Series/Autograd_RHF
    ML_Notes/Autograd_Series/Autograd_Hess
    ML_Notes/SISSO/SISSO_SimpleNote
+   ML_Notes/Kennard-Stone/Kennard-Stone-ON2
 
 
 这部分的内容置于 `github 仓库 <https://github.com/ajz34/ajz34.readthedocs.io>`_ 中。
