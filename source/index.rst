@@ -18,6 +18,7 @@ ajz34 的 jupyter 小仓库
    Simple_Notes/plot_regression
    Simple_Notes/for_the_worthy
    Simple_Notes/posthf_density_matrtix
+   Simple_Notes/GRR_Trig
 
 
 .. toctree::
