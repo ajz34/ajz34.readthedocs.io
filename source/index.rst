@@ -20,6 +20,7 @@ ajz34 的 jupyter 小仓库
    Simple_Notes/posthf_density_matrtix
    Simple_Notes/GRR_Trig
    Simple_Notes/Cholesky_Derivative
+   Simple_Notes/cached_property
 
 
 .. toctree::
