@@ -28,6 +28,7 @@ author = 'ajz34'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+        "sphinx_comments",
         "myst_nb",
         "sphinx.ext.mathjax",
         "sphinxcontrib.bibtex",
@@ -74,11 +75,15 @@ html_static_path = ['_static']
 
 # -- Extension configuration -------------------------------------------------
 
+comments_config = {
+   "utterances": {
+      "repo": "ajz34/ajz34.readthedocs.io",
+   }
+}
+
 html_logo = "logo.png"
 html_favicon = "logo.ico"
 
-nbsphinx_allow_errors = True
-nbsphinx_timeout = 720
 jupyter_execute_notebooks = "off"
 # https://stackoverflow.com/questions/56336234/build-fail-sphinx-error-contents-rst-not-found
 master_doc = "index"
