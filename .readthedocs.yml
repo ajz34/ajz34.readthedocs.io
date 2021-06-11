@@ -3,14 +3,10 @@ version: 2
 submodules:
   include: all
 
-build:
-  image: latest
-
 python:
   version: 3.7
   install:
     - requirements: requirements.yml
-  system_packages: true
 
 sphinx:
   builder: html
