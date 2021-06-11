@@ -1,8 +1,5 @@
 version: 2
 
-sphinx:
-  configuration: source/conf.py
-
 submodules:
   include: all
 
@@ -12,8 +9,12 @@ build:
 python:
   version: 3.7
   install:
+    - method: pip
     - requirements: requirements.yml
   system_packages: true
+
+sphinx:
+  builder: html
 
 formats: [htmlzip]
 
