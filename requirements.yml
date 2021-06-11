@@ -1,5 +1,5 @@
 jupyter
-sphinx=3
+sphinx>2
 sphinx-book-theme
 myst-nb
 sphinx-comments
