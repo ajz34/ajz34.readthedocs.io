@@ -1,6 +1,7 @@
 jupyter
-sphinx>=2
-nbsphinx
-sphinx_rtd_theme
+sphinx=3
+sphinx-book-theme
+myst-nb
+sphinx-comments
 sphinxcontrib-bibtex
 
