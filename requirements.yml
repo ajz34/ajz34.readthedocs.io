@@ -3,5 +3,4 @@ sphinx>=3,<4
 sphinx-book-theme
 myst-nb
 sphinx-comments
-sphinxcontrib-bibtex
 
