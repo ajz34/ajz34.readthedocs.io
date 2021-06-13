@@ -28,10 +28,9 @@ author = 'ajz34'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-        "sphinx_comments",
-        "myst_nb",
-        "sphinx.ext.mathjax",
-        "sphinxcontrib.bibtex",
+    "sphinx_comments",
+    "myst_nb",
+    "sphinx.ext.mathjax",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -48,9 +47,9 @@ language = 'zh_CN'
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = [
-        "tmp",
-        "_build",
-        "**.ipynb_checkpoints"
+    "tmp",
+    "_build",
+    "**.ipynb_checkpoints"
 ]
 
 
@@ -75,6 +74,8 @@ html_static_path = ['_static']
 
 # -- Extension configuration -------------------------------------------------
 
+jupyter_execute_notebooks = "off"
+
 comments_config = {
    "utterances": {
       "repo": "ajz34/ajz34.readthedocs.io",
@@ -84,7 +85,14 @@ comments_config = {
 html_logo = "logo.png"
 html_favicon = "logo.ico"
 
-jupyter_execute_notebooks = "off"
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "html_image",
+]
+
 # https://stackoverflow.com/questions/56336234/build-fail-sphinx-error-contents-rst-not-found
 master_doc = "index"
 
@@ -93,16 +101,3 @@ def setup(app):
     app.add_css_file('custom.css')
 
 mathjax_path = "MathJax/es5/tex-chtml-full.js"
-
-bibtex_bibfiles = [
-    "QC_Notes/assets/PUHF_and_PMP2.bib",
-    "QC_Notes/DF_Series/assets/DF_SCF.bib",
-    "QC_Notes/DF_Series/assets/LT_MP2.bib",
-    "QC_Notes/Post_Series/mp3_mp4_energy.bib",
-    "QC_Notes/Post_Series/dRPA_Comprehense.bib",
-    "QC_Notes/Post_Series/scsRPA_Comprehense.bib",
-    "QC_Notes/Prop_Series/Mag_NoGIAO_NumDeriv.bib",
-    "QC_Notes/Prop_Series/Mag_GIAO_NumDeriv.bib",
-    "ML_Notes/Autograd_Series/assets/Autograd_RHF.bib",
-    "ML_Notes/SISSO/SISSO_SimpleNote.bib",
-]
