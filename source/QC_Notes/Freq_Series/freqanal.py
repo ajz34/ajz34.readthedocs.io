@@ -91,17 +91,15 @@ class FreqAnal:
             natm, proj_scr, theta = self.natm, self.proj_scr, self.theta
             proj_inv = np.zeros((natm * 3, natm * 3))
             proj_inv[:, :6] = proj_scr
-            x_col = 6 - 1
-            for A_col in range(6, natm * 3):
-                stat = True
-                while stat:  # first xcol - 6 values in vector t should be zero
-                    x_col += 1
-                    x0 = np.zeros((natm * 3, ))
-                    x0[x_col - 6] = 1
-                    t = x0 - proj_inv[:, :A_col].T @ x0 @ proj_inv[:, :A_col].T
-                    t /= np.linalg.norm(t)
-                    stat = (np.linalg.norm(t[:x_col - 6]) > 1e-7)
-                proj_inv[:, A_col] = t
+            cur = 6
+            for i in range(0, natm * 3):
+                vec_i = np.einsum("Ai, i -> A", proj_inv[:, :cur], proj_inv[i, :cur])
+                vec_i[i] -= 1
+                if np.linalg.norm(vec_i) > 1e-8:
+                    proj_inv[:, cur] = vec_i / np.linalg.norm(vec_i)
+                    cur += 1
+                if cur >= natm * 3:
+                    break
             proj_inv = proj_inv[:, 6:]
             self._proj_inv = proj_inv
         return self._proj_inv
