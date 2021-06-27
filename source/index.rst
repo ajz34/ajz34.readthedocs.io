@@ -49,6 +49,7 @@ ajz34 的 jupyter 小仓库
    
    QC_Notes/Freq_Series/freq_1
    QC_Notes/Freq_Series/freq_3
+   QC_Notes/Freq_Series/freq_4
    QC_Notes/Freq_Polar/Freq_Polar
    QC_Notes/Prop_Series/Mag_NoGIAO_NumDeriv
    QC_Notes/Prop_Series/Mag_GIAO_NumDeriv
