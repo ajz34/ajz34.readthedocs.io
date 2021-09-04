@@ -100,4 +100,4 @@ def setup(app):
     # https://stackoverflow.com/questions/23211695/modifying-content-width-of-the-sphinx-theme-read-the-docs
     app.add_css_file('custom.css')
 
-mathjax_path = "MathJax/es5/tex-chtml-full.js"
+# mathjax_path = "MathJax/es5/tex-chtml-full.js"
