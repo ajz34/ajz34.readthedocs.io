@@ -40,6 +40,7 @@ ajz34 的 jupyter 小仓库
    QC_Notes/Post_Series/scsRPA_Comprehense
    QC_Notes/Post_Series/oomp2
    QC_Notes/ONIOM_Series/oniom_simple
+   QC_Notes/Post_Series/cepa_learn
 
 
 .. toctree::
