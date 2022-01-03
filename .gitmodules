@@ -3,4 +3,4 @@
 	url = https://github.com/mathjax/MathJax.git
 [submodule "source/ML_Notes/winograd6x3"]
 	path = source/ML_Notes/winograd6x3
-	url = git@gitee.com:ajz34/winograd6x3.git
+	url = https://gitee.com/ajz34/winograd6x3.git
