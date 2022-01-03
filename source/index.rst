@@ -12,6 +12,12 @@ ajz34 的 jupyter 小仓库
 
 .. toctree::
    :maxdepth: 1
+   :caption: 合集
+   
+   index_QCTech_Collection
+
+.. toctree::
+   :maxdepth: 1
    :numbered:
    :caption: 简短笔记
 
@@ -28,20 +34,10 @@ ajz34 的 jupyter 小仓库
    :numbered:
    :caption: 量子化学程序：分子能量
 
-   QC_Notes/PUHF_and_PMP2
-   QC_Notes/DF_Series/DF_SCF
-   QC_Notes/DF_Series/DF_MP2
-   QC_Notes/DF_Series/LT_MP2
-   QC_Notes/SCF_Series/diis_comprehen
-   QC_Notes/Post_Series/mp3_mp4_energy
    QC_Notes/XC_Potential_Series/PBE_xc_potential
    QC_Notes/XC_Potential_Series/KS_Potential_Artifact
    QC_Notes/Post_Series/dRPA_Comprehense
-   QC_Notes/Post_Series/scsRPA_Comprehense
-   QC_Notes/Post_Series/oomp2
    QC_Notes/ONIOM_Series/oniom_simple
-   QC_Notes/Post_Series/cepa_learn
-   QC_Notes/DF_Series/LS_THC_MP2
 
 
 .. toctree::
