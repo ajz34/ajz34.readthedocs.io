@@ -11,7 +11,7 @@ ajz34 的 jupyter 小仓库
 这些程序文档都是由 Python 下的 Jupyter Notebook 编写而成，因此在安装足够的依赖环境的条件下，这些文档都是可以作为程序运行的。欢迎大家到 Github 下载这些 Jupyter 文档并亲手运行。
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: 合集
    
    index_QCTech_Collection
@@ -68,6 +68,7 @@ ajz34 的 jupyter 小仓库
    ML_Notes/Kennard-Stone/Kennard-Stone-Mem
    ML_Notes/winograd6x3/cnn_direct
    ML_Notes/winograd6x3/cnn_winograd
+   ML_Notes/winograd6x3/cnn_winograd_l2
 
 
 这部分的内容置于 `github 仓库 <https://github.com/ajz34/ajz34.readthedocs.io>`_ 中。
