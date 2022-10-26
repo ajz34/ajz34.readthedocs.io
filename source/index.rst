@@ -27,6 +27,7 @@ ajz34 的 jupyter 小仓库
    Simple_Notes/GRR_Trig
    Simple_Notes/Cholesky_Derivative
    Simple_Notes/cached_property
+   Simple_Notes/LT_coeff
 
 
 .. toctree::
