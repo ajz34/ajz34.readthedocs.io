@@ -71,6 +71,13 @@ ajz34 的 jupyter 小仓库
    ML_Notes/winograd6x3/cnn_winograd
    ML_Notes/winograd6x3/cnn_winograd_l2
 
+.. toctree::
+   :maxdepth: 1
+   :numbered:
+   :caption: 量子计算笔记
+   
+   QuantC_Notes/Grover_Sudoku
+
 
 这部分的内容置于 `github 仓库 <https://github.com/ajz34/ajz34.readthedocs.io>`_ 中。
 
