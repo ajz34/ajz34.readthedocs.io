@@ -1,3 +1,13 @@
-.container-xl {
-    max-width: none;
+.navbar-brand img {
+    height: 50%;
+    max-width: 50%;
+    width: auto;
+}
+
+.bd-main .bd-content .bd-article-container {
+    max-width: 100%;
+}
+
+.bd-page-width {
+    max-width: 95%;
 }

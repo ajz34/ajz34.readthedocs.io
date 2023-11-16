@@ -1,7 +1,6 @@
 jupyter
-sphinx>=3,<4
+sphinx
 sphinx-book-theme
 myst-nb
 sphinx-comments
-jinja2<3.1
 
