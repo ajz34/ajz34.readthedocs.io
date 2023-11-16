@@ -1,15 +1,21 @@
 version: 2
 
+build:
+  os: ubuntu-22.04
+  tools:
+    python: 3.10
+
 submodules:
   include: all
 
 python:
-  version: 3.7
   install:
     - requirements: requirements.yml
 
 sphinx:
+  configuration: source/conf.py
   builder: html
 
-formats: [htmlzip]
+formats:
+  - htmlzip
 
